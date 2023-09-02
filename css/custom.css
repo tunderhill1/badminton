@@ -1,0 +1,400 @@
+#logo {
+    border: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0.3em !important;
+    padding: 0 !important;
+}
+
+#banner .wrapper {
+    padding: 0 0 3em;
+}
+
+#banner p {
+    margin-bottom: 1.2em;
+}
+
+#banner p.long span {
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+
+.brand {
+    height: 3.5em;
+    vertical-align: middle;
+    border-radius: 0.15em;
+}
+
+#sport-imperial-brand {
+    margin-bottom:1.75em;
+}
+
+#icu-brand {
+    margin-top: -3em;
+    height: 5.1em;
+    float: right;
+}
+
+@media F and (max-width: 736px) {
+    #icu-brand {
+        margin: 1em auto 0;
+        float: none;
+    }
+
+    .center-brand-container {
+        text-align: center;
+    }
+}
+
+#login-nav {
+    border-right: 1px solid rgba(255, 255, 255, 0.75);
+    line-height: 1.5em !important;
+    margin-right: 0 !important;
+    padding-right: 2.2em !important;
+}
+
+#login-menu {
+    display: none !important;
+}
+
+@media screen and (max-width: 480px) {
+    #login-nav {
+        display: none !important;
+    }
+
+    #login-menu {
+        display: inline-block !important;
+    }
+}
+
+.help-block {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.alert {
+    margin-bottom: 2.25em;
+    border: 1px solid transparent;
+    padding: .75em 1.25em;
+    border-radius: .25em;
+}
+
+.alert.warning {
+    border-color: #ffeeba;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert.info {
+    border-color: #bee5eb;
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+input[type="text"].match,
+input[type="password"].match,
+input[type="email"].match,
+select.match {
+	height: 2.85em;
+}
+
+input.link {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    color: #51baa4 !important;
+    text-decoration: underline !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    min-width: 0 !important;
+    line-height: normal !important;
+    display: inline !important;
+}
+
+input.link:hover {
+    text-decoration: none !important;
+}
+
+table form {
+    margin: 0;
+    display: inline;
+}
+
+section.bump {
+    margin-bottom: 2em;
+}
+
+ul.inline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.inline > li {
+    margin: 0;
+    padding: 0;
+}
+
+p.long {
+    text-transform: none !important;
+}
+
+p.match {
+    vertical-align: middle;
+    padding: 2px 0;
+}
+
+.wrapper.less-top {
+    padding-top: 6em;
+}
+
+section.pad {
+    padding-top: 2em;
+}
+
+#groups {
+    width: 100%;
+    max-width: 30em;
+}
+
+@media screen and (min-width: 980px) {
+    ul.align li {
+        line-height: 2.5em;
+    }
+}
+
+.logo-centre img {
+    max-width: 16em;
+    max-height: 10em;
+    vertical-align: middle;
+}
+
+.logo-left img {
+    max-width: 16em;
+    max-height: 10em;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 980px) {
+    #tournament-yeos {
+        margin-bottom: 4em;
+    }
+}
+
+.logo-centre {
+    text-align: center;
+    height: 10em;
+    line-height: 10em;
+}
+
+.logo-left {
+    text-align: left;
+    height: 5em;
+    line-height: 5em;
+}
+
+p.large {
+	font-size: 1.4em;
+}
+
+.box.person {
+	text-align: center;
+	height: 100%;
+}
+
+.box.person .name {
+	font-size: 2em;
+	margin-bottom: 0.75em;
+	color: #666;
+}
+
+.box.person .role {
+	font-size: 1.5em;
+	color: #9C9C9C;
+}
+
+@media screen and (max-width: 980px) {
+	.box.person .name,
+	.box.person .role {
+		font-size: 1.4em;
+	}
+}
+
+.sponsor-image {
+	max-height: 6.6em;
+	max-width: 100%;
+}
+
+#tournament-images {
+	padding: 2em 0 0;
+}
+
+.new {
+    font-size: 1.2em;
+    max-width: 35em;
+    margin: 0 auto 2em;
+}
+
+.new h3 {
+    text-align: center;
+}
+
+.new ol {
+    margin-bottom: 1em;
+}
+
+.wrapper.with-top-alert {
+    padding-top: 4em;
+}
+
+.wrapper.team-images {
+    padding: 2em 0 0;
+}
+
+td span {
+    font-size: 0.8em;
+    display: inline-block;
+    font-style: italic;
+}
+
+hr.special {
+    width: 10em;
+    border-color: rgba(144, 144, 144, 0.6);
+    margin: 2em auto 3em;
+}
+
+.table-toggle {
+    background-color: #EEE;
+    padding: 1em;
+    position: relative;
+    cursor: pointer;
+}
+
+.table-toggle:after {
+    content: '\25B6';
+    display: block;
+    right: 1em;
+    top: 50%;
+    position: absolute;
+    margin-top: -0.5em;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.table-toggle.on:after {
+    content: '\25BC';
+}
+
+span.training-cost {
+    display: block;
+    margin: 0.5em 0 1.5em;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(144, 144, 144, 0.3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10002;
+    display: none;
+}
+
+.modal.open {
+    display: block;
+}
+
+.modal-content {
+    width: 40em;
+    padding: 1em;
+    background: white;
+    border-radius: .25em;
+    display: inline-block;
+    margin-top: 5em;
+    box-shadow: 1px 1px 5px 0px rgba(144, 144, 144, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.modal-content hr {
+    width: 5em;
+    margin: 1em auto;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 736px) {
+    .modal-content {
+        width: 100%;
+        padding: 1em;
+        background: white;
+        border-radius: 0;
+        margin-top: 5em;
+        box-shadow: 1px 1px 5px 0px rgba(144, 144, 144, 0.3);
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.row.uniform.flex {
+    position: relative;
+    top: -2em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.row.uniform.flex > * > :last-child {
+        margin-bottom: 0.2em;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+}
+
+table td > input[type="checkbox"] {
+    appearance: checkbox;
+}
+
+.actions > * > input[type="checkbox"] + label:before, input[type="radio"] + label:before {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.actions > * > input[type="checkbox"] + label, input[type="radio"] + label {
+    color: #fff;
+}
+
+.actions > * > input[type="checkbox"]:checked + label:before {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: #51BAA4;
+    color: #25383B;
+}
+
+/*ul.actions li {
+    display: table-cell;
+    vertical-align: middle;
+}*/
+
+/*#banner ul.icons > li .icon {
+    border: none;
+}*/
+
+#banner ul.icons > li .icon:before {
+    font-size: 1em;
+}
